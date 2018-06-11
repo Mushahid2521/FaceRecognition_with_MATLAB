@@ -14,7 +14,7 @@ There are also two other functions, one of which collect images if we want to ad
 ## Note:
 - No need to take the image of face only. It finds the face itself and use the face for training and prediction.
 - If a new member is added then classifier must be trained again. 
-- dataSet folder is a sample folder to show how to keep images in dataset. To get good result more images needed and to test with sample dataset use [faces96 Dataset](http://cswww.essex.ac.uk/mv/allfaces/faces96.zip)
+- ```dataSet``` folder is a sample folder to show how to keep images in dataset. To get good result more images needed and to test with sample dataset use [faces96 Dataset](http://cswww.essex.ac.uk/mv/allfaces/faces96.zip)
 ## Dependency:
 - Computer Vision system toolbox
 - Support package for USB webcam
