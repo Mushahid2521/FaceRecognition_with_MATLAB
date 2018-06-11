@@ -12,6 +12,8 @@ There are also two other functions, one of which collect images if we want to ad
 
 ## Note:
 - No need to take the image of face only. It finds the face itself and use the face for training and prediction. 
+## Dependency:
+- Support package for USB webcam
 
 ## Example:
  ![sample](https://github.com/Mushahid2521/FaceRecognition_with_MATLAB/blob/master/sample.jpg)
