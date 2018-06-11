@@ -13,6 +13,7 @@ There are also two other functions, one of which collect images if we want to ad
 ## Note:
 - No need to take the image of face only. It finds the face itself and use the face for training and prediction. 
 ## Dependency:
+- Computer Vision system toolbox
 - Support package for USB webcam
 
 ## Example:
