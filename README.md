@@ -5,13 +5,15 @@ Histogram of Oriented Gradients (HOG) has been used as feature and SVM as classi
 There are also two other functions, one of which collect images if we want to add new member in dataset and other function shows the live detection and recognition. 
 
 ## Usage
-- Use ``` collectImage``` to take 20 pictures for new member in the dataset. And make a folder with the person name in data folder.
+- Make sub folders for each individual with person's name in dataSet folder. 
+- If new member comes, Use ``` collectImage``` to take 20 pictures for new member in the dataset. And make a sub-folder with the person's name in dataSet folder.
 - In the ```main.m``` file locate the image folder directory in *imageset()* function.
 - Run the other sections upto getting the training set and test set accuracy. 
 - Run ```takeImage_predict.m``` which takes continuous image and shows predictions with a bounding box. 
 
 ## Note:
-- No need to take the image of face only. It finds the face itself and use the face for training and prediction. 
+- No need to take the image of face only. It finds the face itself and use the face for training and prediction.
+- If a new member is added then classifier must be trained again. 
 ## Dependency:
 - Computer Vision system toolbox
 - Support package for USB webcam
