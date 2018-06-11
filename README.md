@@ -11,3 +11,4 @@ There are also two other functions, one of which collect images if we want to ad
 - ```takeImage_predict.m``` takes continuous image and predicts with a bounding box. 
 
 ## Example:
+ ![sample](https://github.com/Mushahid2521/FaceRecognition_with_MATLAB/blob/master/sample.jpg)
