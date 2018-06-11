@@ -6,7 +6,7 @@ There are also two other functions, one of which collect images if we want to ad
 
 ## Usage
 - Make sub folders for each individual with person's name in dataSet folder. 
-- If new member comes, Use ``` collectImage``` to take 20 pictures for new member in the dataset. And make a sub-folder with the person's name in dataSet folder.
+- If new member comes, Use ``` collectImage.m``` to take 20 pictures for new member in the dataset. And make a sub-folder with the person's name in dataSet folder.
 - In the ```main.m``` file locate the image folder directory in *imageset()* function.
 - Run the other sections upto getting the training set and test set accuracy. 
 - Run ```takeImage_predict.m``` which takes continuous image and shows predictions with a bounding box. 
