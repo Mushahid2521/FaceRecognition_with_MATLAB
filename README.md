@@ -8,7 +8,10 @@ There are also two other functions, one of which collect images if we want to ad
 - Use ``` collectImage``` to take 20 pictures for new member in the dataset. And make a folder with the person name in data folder.
 - In the ```main.m``` file locate the image folder directory in *imageset()* function.
 - Run the other sections upto getting the training set and test set accuracy. 
-- ```takeImage_predict.m``` takes continuous image and predicts with a bounding box. 
+- Run ```takeImage_predict.m``` which takes continuous image and shows predictions with a bounding box. 
+
+## Note:
+- No need to take the image of face only. It finds the face itself and only use the face for training and prediction. 
 
 ## Example:
  ![sample](https://github.com/Mushahid2521/FaceRecognition_with_MATLAB/blob/master/sample.jpg)
