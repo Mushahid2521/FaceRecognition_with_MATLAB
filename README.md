@@ -6,6 +6,8 @@ There are also two other functions, one of which collect images if we want to ad
 
 ## Usage
 - Use ``` collectImage``` to take 20 pictures for new member in the dataset. And make a folder with the person name in data folder.
-- In the ```main.mat``` file locate the image folder directory in *imageset()* function.
+- In the ```main.m``` file locate the image folder directory in *imageset()* function.
 - Run the other sections upto getting the training set and test set accuracy. 
 - ```takeImage_predict.m``` takes continuous image and predicts with a bounding box. 
+
+## Example:
